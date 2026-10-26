@@ -29,4 +29,4 @@ updating reading status, and removing books.
 - Track reading progress and total completed books.
 
 ## Author
-**Siddhi Deshmukh**
+Siddhi Deshmukh
