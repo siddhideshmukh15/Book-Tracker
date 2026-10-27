@@ -1,10 +1,11 @@
 books=[]
 while True:
     print("===== Book Tracker====")
-    print("1 Add Book")
-    print("2.View Book ")
+    print("1. Add Book")
+    print("2. View Book ")
     print("3. Update Reading Status")
-    print("4 Exit")
+    print("4. Delete Book")
+    print("5. Exit")
 
     choice=input("Enter your choice:")
 
@@ -60,8 +61,21 @@ while True:
                             print("Invalid book number!")
                 except ValueError:
                     print("please enter a valid number!")
-
     elif choice=="4":
+        try:
+            n=int(input("Book number to delete."))
+
+            if 1<=n<=len(books):
+                books.pop(n-1)
+                print("Book deleted!")
+            else:
+                print("Invalid book number!")
+
+        except ValueError:
+            print("Enter a valid number!")
+            
+
+    elif choice=="5":
         print("Thank you for using Book Tracker!")
         break
     else:
