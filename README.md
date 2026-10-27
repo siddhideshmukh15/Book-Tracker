@@ -28,4 +28,4 @@ A simple Python application that helps users keep track of their books by adding
 - Track reading progress and total completed books.
 
 ## Author
-**Siddhi Deshmukh**
+Siddhi Deshmukh
