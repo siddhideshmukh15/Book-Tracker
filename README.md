@@ -1,15 +1,14 @@
 # Book Tracker
 
 ## Description
-A simple Python application that helps users 
-keep track of their books by adding books, viewing the book list,
-updating reading status, and removing books.
+A simple Python application that helps users keep track of their books by adding books, viewing the book list, updating reading status, and removing books.
 
 ## Features
 - Add new books with their titles and authors.
 - View all books in the collection.
 - Track reading status (Not Started, Reading, or Completed).
-- Update a book's reading status
+- Update a book's reading status.
+- Delete books from the list.
 - Simple and user-friendly menu.
 
 ## Technologies Used
